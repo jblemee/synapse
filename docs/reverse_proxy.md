@@ -178,6 +178,8 @@ matrix.example.com {
 
 **NOTE 3**: Missing `ProxyPreserveHost on` can lead to a redirect loop.
 
+**NOTE 4**: You may need to add `LISTEN 8448` on `port.conf` to allow federation
+
 ### HAProxy
 
 ```
